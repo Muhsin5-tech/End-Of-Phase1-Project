@@ -1,0 +1,83 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 20px;
+    background-color: purple;
+}
+
+
+
+header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #2C3539;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: green;
+}
+
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#newFactInput{
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Georgia', serif;
+}
+
+
+li {
+    background-color: lightcoral;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+li button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #2C3539;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+li button:hover {
+    background-color: red;
+}
+
+
+#factDisplay {
+    background-color: lightcoral;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
