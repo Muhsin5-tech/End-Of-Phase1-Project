@@ -21,9 +21,9 @@ img{
 
 
 .button-container {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center items vertically */
-    margin-top: 10px; /* Space above button container */
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
     justify-content: space-between;
     width: 100%;
 }
@@ -33,15 +33,15 @@ img{
 }
 
 .comment-list {
-    margin-top: 5px; /* Space above comments */
+    margin-top: 5px;
 }
 
 .comment-item {
-    background-color: lightcoral; /* Light background for comments */
-    border: none; /* Border for comments */
-    padding: 10px; /* Padding for comments */
-    border-radius: 3px; /* Round corners */
-    margin-top: 2px; /* Space between comments */
+    background-color: #3EB489;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 2px;
     list-style-type: decimal;
 }
 
@@ -50,7 +50,7 @@ img{
 button {
     padding: 10px;
     margin: 5px;
-    background-color: #2C3539;
+    background-color: green;
     color: white;
     border: none;
     border-radius: 5px;
@@ -60,7 +60,7 @@ button {
 
 
 button:hover {
-    background-color: green;
+    background-color: #C0C0C0;
 }
 
 
@@ -99,7 +99,7 @@ li {
 li button {
     padding: 10px;
     margin: 5px;
-    background-color: #2C3539;
+    background-color: 	#32527B;
     color: white;
     border: none;
     border-radius: 20px;
