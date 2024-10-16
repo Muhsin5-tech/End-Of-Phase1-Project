@@ -134,6 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+    
     function saveFacts() {
         const factsList = document.getElementById('factsList');
         const facts = Array.from(factsList.children).map((listItem) => {
