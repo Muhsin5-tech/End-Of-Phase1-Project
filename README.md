@@ -1,1 +1,2 @@
 # End-Of-Phase1-Project
+This is a tool that returns a random fact about cats on a GET request and add more interesting facts (POST). You can also remove the boring ones from the list.You can like the added fact, comment on it and also delete the comment.

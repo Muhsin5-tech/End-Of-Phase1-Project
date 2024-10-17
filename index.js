@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const heartEmoji = document.createElement('span');
         heartEmoji.textContent = liked ? '❤️' : '♡';
         heartEmoji.style.cursor = 'pointer';
+        heartEmoji.style.backgroundColor = '#32527B'
         heartEmoji.onclick = () => {
             liked = !liked;
             heartEmoji.textContent = liked ? '❤️' : '♡';
