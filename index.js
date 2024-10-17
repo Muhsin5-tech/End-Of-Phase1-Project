@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const factsList = document.getElementById('factsList');
         const listItem = document.createElement('li');
         
+        
         const factText = document.createElement('span');
         factText.textContent = fact;
         listItem.appendChild(factText);
